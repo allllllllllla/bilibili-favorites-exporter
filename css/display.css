@@ -33,9 +33,9 @@ body {
 }
 
 .export-container {
-  max-width: 1400px;
+  max-width: 1500px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 15px;
 }
 
 
@@ -59,14 +59,13 @@ header h1 {
 .content {
   display: flex;
   gap: 24px;
-  padding: 20px;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   min-height: 600px;
 }
 
 .favorites-list {
   position: relative;
-  width: 300px;
+  width: 200px;
   flex-shrink: 0;
   background: var(--bg-secondary);
   border-radius: 12px;
@@ -97,7 +96,7 @@ header h1 {
 }
 
 .folder-item {
-  padding: 12px;
+  padding: 13px;
   border-radius: 8px;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -156,7 +155,7 @@ header h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   background: var(--bg-primary);
   border-radius: 8px;
   padding: 16px;
@@ -202,7 +201,7 @@ header h1 {
 .video-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 16px;
+  gap: 15px;
   padding: 20px 0;
 }
 
@@ -448,8 +447,8 @@ header h1 {
 
 .upload-area {
   margin: 40px auto;
-  max-width: 500px;
-  height: 300px;
+  max-width: 1000px;
+  height: 600px;
   border: 2px dashed var(--border-color);
   border-radius: 16px;
   display: flex;
@@ -851,12 +850,8 @@ header h1 {
 .folder-list {
   position: relative;
   overflow-y: overlay;
-  max-height: calc(100vh - 400px);
   margin-right: -8px;
   padding-right: 8px;
-  
-  /* 移除这些默认隐藏的样式 */
-  /* scrollbar-width: none; */
 }
 
 /* Webkit 滚动条样式 */
