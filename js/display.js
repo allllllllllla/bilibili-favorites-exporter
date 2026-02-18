@@ -1,7 +1,7 @@
 // 状态管理 ٩(◕‿◕｡)۶
 let state = {
   currentPage: 1,
-  pageSize: 24,  // 每页显示24个视频
+  pageSize: 20,  // 每页显示20个视频
   currentFolder: null,
   videos: [],
   searchText: '',
